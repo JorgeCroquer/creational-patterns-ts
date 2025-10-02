@@ -2,7 +2,9 @@
   "name": "creational-patterns-ts",
   "version": "1.0.0",
   "description": "Some examples of creational patterns with TypeScript ",
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JorgeCroquer/creational-patterns-ts.git"
