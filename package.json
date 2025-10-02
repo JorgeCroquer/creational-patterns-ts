@@ -1,0 +1,31 @@
+{
+  "name": "creational-patterns-ts",
+  "version": "1.0.0",
+  "description": "Some examples of creational patterns with TypeScript ",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeCroquer/creational-patterns-ts.git"
+  },
+  "keywords": [
+    "design",
+    "design-patterns",
+    "patterns",
+    "creational",
+    "typescript",
+    "poo"
+  ],
+  "author": "Jorge Cróquer",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/JorgeCroquer/creational-patterns-ts/issues"
+  },
+  "homepage": "https://github.com/JorgeCroquer/creational-patterns-ts#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "i": "^0.3.7",
+    "jest": "^30.2.0",
+    "npm": "^11.6.1",
+    "ts-jest": "^29.4.4"
+  }
+}
