@@ -30,3 +30,13 @@ Files related to the Factory Method example:
 - [`factory/concrete-adapters.ts`](factory/concrete-adapters.ts) — concrete implementations of the HttpAdapter interface (AxiosAdapter, ExpressAdapter).
 - [`factory/concrete-factories.ts`](factory/concrete-factories.ts) — concrete implementations of the HttpAdapterFactory interface (AxiosFactory, ExpressFactory).
 - [`factory/factory.spec.ts`](factory/factory.spec.ts) — unit tests (Jest) covering the behavior.
+
+- Abstract Factory: a didactic, test-covered example that demonstrates how to create families of related products (device families) without specifying concrete classes. Useful when you need to ensure created products are compatible across a family (e.g., Phone, Laptop, Tablet).
+
+Files related to the Abstract Factory example:
+
+- [`abstract-factory/abstract-factory.ts`](abstract-factory/abstract-factory.ts) — the Abstract Factory interface defining methods to create related products (CPU, Memory, Display).
+- [`abstract-factory/products.ts`](abstract-factory/products.ts) — abstract product classes (CPU, Memory, Display).
+- [`abstract-factory/concrete-products.ts`](abstract-factory/concrete-products.ts) — concrete product implementations for each device family (Phone*, Laptop*, Tablet*).
+- [`abstract-factory/concrete-factories.ts`](abstract-factory/concrete-factories.ts) — concrete factories producing compatible product families.
+- [`abstract-factory/abstract-factory.spec.ts`](abstract-factory/abstract-factory.spec.ts) — unit tests (Jest) illustrating usage and benefits of the Abstract Factory pattern.
