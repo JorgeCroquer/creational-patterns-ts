@@ -17,6 +17,16 @@ Small, focused TypeScript examples to learn and demonstrate creational design pa
 
 Files related to the Singleton example:
 
-- [`singleton/product.ts`](singleton/product.ts:1) — small Product value object used by the example.
-- [`singleton/shopping-cart.ts`](singleton/shopping-cart.ts:1) — the Singleton implementation (ShoppingCart).
-- [`singleton/singleton.spec.ts`](singleton/singleton.spec.ts:1) — unit tests (Jest) covering the behavior.
+- [`singleton/product.ts`](singleton/product.ts) — small Product value object used by the example.
+- [`singleton/shopping-cart.ts`](singleton/shopping-cart.ts) — the Singleton implementation (ShoppingCart).
+- [`singleton/singleton.spec.ts`](singleton/singleton.spec.ts) — unit tests (Jest) covering the behavior.
+
+- Factory Method: a simple, test-covered example that demonstrates how to create objects without specifying the exact class of object that will be created.
+
+Files related to the Factory Method example:
+
+- [`factory/http-adapter.interface.ts`](factory/http-adapter.interface.ts) — the target interface (HttpAdapter).
+- [`factory/http-factory.interface.ts`](factory/http-factory.interface.ts) — the Factory interface (HttpAdapterFactory).
+- [`factory/concrete-adapters.ts`](factory/concrete-adapters.ts) — concrete implementations of the HttpAdapter interface (AxiosAdapter, ExpressAdapter).
+- [`factory/concrete-factories.ts`](factory/concrete-factories.ts) — concrete implementations of the HttpAdapterFactory interface (AxiosFactory, ExpressFactory).
+- [`factory/factory.spec.ts`](factory/factory.spec.ts) — unit tests (Jest) covering the behavior.
