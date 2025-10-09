@@ -40,3 +40,11 @@ Files related to the Abstract Factory example:
 - [`abstract-factory/concrete-products.ts`](abstract-factory/concrete-products.ts) — concrete product implementations for each device family (Phone*, Laptop*, Tablet*).
 - [`abstract-factory/concrete-factories.ts`](abstract-factory/concrete-factories.ts) — concrete factories producing compatible product families.
 - [`abstract-factory/abstract-factory.spec.ts`](abstract-factory/abstract-factory.spec.ts) — unit tests (Jest) illustrating usage and benefits of the Abstract Factory pattern.
+
+- Builder: a comprehensive, test-covered example that demonstrates how to construct complex objects (SQL and MongoDB queries) step by step. The same construction process can create different representations.
+
+Files related to the Builder example:
+
+- [`builder/query-builder.ts`](builder/query-builder.ts) — the Builder interface and concrete implementations (SQLQueryBuilder, MongoQueryBuilder).
+- [`builder/query.ts`](builder/query.ts) — the Product class representing the complex object being built (Query).
+- [`builder/query-builder.spec.ts`](builder/query-builder.spec.ts) — unit tests (Jest) covering the behavior.
